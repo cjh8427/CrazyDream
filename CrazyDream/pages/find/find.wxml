@@ -1,4 +1,6 @@
 <!--pages/find/find.wxml-->
 <text>pages/find/find.wxml</text>
-<text>谢本寅修改的</text>
-<text>我用git在2910-9-27提交这段内容</text>
+<text>GItHub  用户名：cjh8427   密码：cjh84271009</text>
+<view>
+  <text>准备写内容了</text>
+</view>
