@@ -1,2 +1,8 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- <text>pages/home/home.wxml</text> -->
+<view class="container">
+    <view class="search-inp">
+        <input type="text" placeholder="请输入关键字"/>
+        <image class="search-btn" src="../../images/find.png" />
+    </view>
+</view>

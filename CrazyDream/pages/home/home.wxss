@@ -1,1 +1,13 @@
 /* pages/home/home.wxss */
+
+.search-inp{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-btn{
+    width:50rpx;
+    height:50rpx;
+}
