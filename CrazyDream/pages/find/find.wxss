@@ -1,1 +1,55 @@
-/* pages/find/find.wxss */
+
+
+.img1{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+.boss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20rpx;
+}
+.image1{
+    margin-top: -40rpx;
+}
+.box{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+    width: 50%;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+
+.text1{
+    line-height: 80rpx;
+    border-top: 2rpx solid #f5f5ff;
+    border-bottom: 2rpx solid #f5f5ff;
+}
+
+@keyframes haha1 {
+   0%{transform:rotate(0deg)  }
+   25%{transform:rotate(90deg) }
+   50%{transform:rotate(180deg) }
+   75%{transform:rotate(270deg) }
+   100%{transform:rotate(360deg) }
+}
+@keyframes haha2 {
+   0%{transform:rotate(0deg)  }
+   25%{transform:rotate(-90deg) }
+   50%{transform:rotate(-180deg) }
+   75%{transform:rotate(-270deg) }
+   100%{transform:rotate(-360deg) }
+}
+.logo{
+   animation:haha1  1s linear reverse infinite;
+}
+.logo1{
+   animation:haha2  8s linear infinite;
+}
