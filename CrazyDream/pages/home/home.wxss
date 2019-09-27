@@ -1,13 +1,35 @@
 /* pages/home/home.wxss */
-
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url("http://img2.imgtn.bdimg.com/it/u=2578223756,2310142984&fm=26&gp=0.jpg") no-repeat center center;
+}
 .search-inp{
     width: 80%;
+    color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid #fff;
+    border-radius: 25rpx;
 }
 
+.keyword-inp{
+    margin-left: 10rpx;
+}
 .search-btn{
     width:50rpx;
     height:50rpx;
+    margin-right: 10rpx;
 }
+
+.share-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* button{
+    display: block;
+} */

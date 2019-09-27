@@ -2,7 +2,12 @@
 <!-- <text>pages/home/home.wxml</text> -->
 <view class="container">
     <view class="search-inp">
-        <input type="text" placeholder="请输入关键字"/>
-        <image class="search-btn" src="../../images/find.png" />
+        <input class="keyword-inp" type="text" placeholder="请输入关键字" bindinput="getKeyWord" />
+        <image class="search-btn" src="../../images/find.png" bindtap="gotoDream" keyword="{{keyword}}"/>
+    </view>
+
+    <view class="share-btn" >
+        <button type="primary" size="mini">分享</button>
+        <button type="warn" size="mini">更多</button>
     </view>
 </view>
