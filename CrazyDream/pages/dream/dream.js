@@ -1,31 +1,35 @@
-// pages/home/home.js
-
+// pages/dream/dream.js
+const {http} = require("../../utils/ajax");
 Page({
 
   /**
    * 页面的初始数据
    */
+
   data: {
-    keyword:""
+    key:"UL3E8YNvTov+jJyN9Yo7Q2/HOATgsJeZ/px07Q",
+    textList:[]
   },
 
-  gotoDream(){
-    wx.navigateTo({
-      url: '/pages/dream/dream?keyword='+this.data.keyword,
-    });
-  },
-  getKeyWord(e){
-    // console.log(e);
-    this.setData({
-      keyword: e.detail.value 
-    })
-   
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
+    http({
+      url:"http://zhouxunwang.cn/data/?id=60",
+      method:"get",
+      data:{
+        key:this.data.key,
+        q:options.keyword
+      },
+      success:res=>{
+        console.log(res);
+        this.setData({
+          textList:res.data.result
+        })
+      }
+    })
   },
 
   /**

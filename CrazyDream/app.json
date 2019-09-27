@@ -6,7 +6,8 @@
     "pages/find/find",
     "pages/cart/cart",
     "pages/mine/mine",
-    "pages/dignDetail/dignDetail"
+    "pages/dignDetail/dignDetail",
+    "pages/dream/dream"
   ],
   "window": {
     "backgroundTextStyle": "light",

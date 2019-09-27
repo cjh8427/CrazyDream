@@ -5,6 +5,8 @@
   background-color: black;
   color: skyblue;
   text-align: center;
-  line-height: 100rpx;
   font-weight: bold;
+}
+.time{
+  font-size: 22rpx;
 }

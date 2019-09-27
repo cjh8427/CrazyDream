@@ -1,4 +1,7 @@
 <!--pages/dignDetail/dignDetail.wxml-->
 <view class="header">
 <text>{{xzname}}</text>
+<view>
+<text class="time">有效期: {{time}}</text>
+</view>
 </view>
