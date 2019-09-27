@@ -1,2 +1,56 @@
-<!--pages/cart/cart.wxml-->
-<text>pages/cart/cart.wxml</text>
+<view class="header">
+  <text style="color: black;">星座运势</text>
+</view>
+<view class="nav">
+  <view>
+    <button bindtap="search" data-value="白羊座">白羊座运势</button>
+    <text>生日3.21-4.19</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="金牛座">金牛座运势</button>
+    <text>生日4.20-5.20</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="双子座">双子座运势</button>
+    <text>生日5.21-6.21</text>
+  </view>
+
+  <view>
+    <button bindtap="search" data-value="巨蟹座">巨蟹座运势</button>
+    <text>生日6.22-7.22</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="狮子座">狮子座运势</button>
+    <text>生日7.23-8.22</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="处女座">处女座运势</button>
+    <text>生日8.23-9.22</text>
+  </view>
+
+  <view>
+    <button bindtap="search" data-value="天秤座">天秤座运势</button>
+    <text>生日9.23-10.23</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="天蝎座">天蝎座运势</button>
+    <text>生日10.24-11.22</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="射手座">射手座运势</button>
+    <text>生日11.23-12.21</text>
+  </view>
+
+  <view>
+    <button bindtap="search" data-value="魔羯座">魔羯座运势</button>
+    <text>生日12.22-1.19</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="水瓶座">水瓶座运势</button>
+    <text>生日1.20-2.18</text>
+  </view>
+  <view>
+    <button bindtap="search" data-value="双鱼座">双鱼座运势</button>
+    <text>生日2.19-3-20</text>
+  </view>
+</view>

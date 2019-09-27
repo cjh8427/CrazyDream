@@ -1,0 +1,4 @@
+<!--pages/dignDetail/dignDetail.wxml-->
+<view class="header">
+<text>{{xzname}}</text>
+</view>

@@ -1,24 +1,23 @@
-// pages/cart/cart.js
+// pages/dignDetail/dignDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    xzname: "",
+    name: "xiebinyin"
+  },
 
-  },
-  search(options){ // 点击按钮查询
-    console.log("点击了按钮");
-    console.log(options);
-    wx.navigateTo({
-      url: '../dignDetail/dignDetail?value=' + options.currentTarget.dataset.value
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
+    // this.data.xzname = options.value;
+    this.setData({
+      xzname: options.value
+    })
   },
 
   /**

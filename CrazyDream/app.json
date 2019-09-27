@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/find/find",
     "pages/cart/cart",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/dignDetail/dignDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -34,9 +35,9 @@
       },
       {
         "pagePath": "pages/cart/cart",
-        "text": "购物车",
-        "iconPath": "images/cart.png",
-        "selectedIconPath": "images/cart-on.png"
+        "text": "星座运势",
+        "iconPath": "images/sign.png",
+        "selectedIconPath": "images/sign-on.png"
       },
       {
         "pagePath": "pages/mine/mine",
