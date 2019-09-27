@@ -28,9 +28,9 @@
       },
       {
         "pagePath": "pages/find/find",
-        "text": "发现",
-        "iconPath": "images/find.png",
-        "selectedIconPath": "images/find-on.png"
+        "text": "周公解梦大全",
+        "iconPath": "images/second1.jpg",
+        "selectedIconPath": "images/second2.jpg"
       },
       {
         "pagePath": "pages/cart/cart",
