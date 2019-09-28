@@ -7,7 +7,9 @@
     "pages/cart/cart",
     "pages/mine/mine",
     "pages/dignDetail/dignDetail",
-    "pages/dream/dream"
+    "pages/dream/dream",
+    "pages/zdetail/zdetail",
+    "pages/zsearch/zsearch"
   ],
   "window": {
     "backgroundTextStyle": "light",

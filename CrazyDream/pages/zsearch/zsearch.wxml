@@ -1,0 +1,6 @@
+<!-- pages/zsearch/zsearch.wxml -->
+<view class="boss">
+    <view bind:tap="gotodetail" data-id="{{index}}" wx:for="{{arr}}" wx:key="{{index}}" class="one">
+        {{item.title}}
+    </view>
+</view>

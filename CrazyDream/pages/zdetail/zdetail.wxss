@@ -1,0 +1,6 @@
+/* pages/zdetail/zdetail.wxss */
+
+.boss{
+    text-align: center;
+    padding: 20rpx;
+}

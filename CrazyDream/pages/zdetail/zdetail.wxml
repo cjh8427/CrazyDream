@@ -1,0 +1,5 @@
+<!-- pages/zdetail/zdetail.wxml -->
+<view class="boss">
+    <view style="line-height:80rpx;font-size:40rpx;color:brown">{{key}}</view>
+    <view style="line-height:80rpx;">{{key}}{{detail}}</view>
+</view>
