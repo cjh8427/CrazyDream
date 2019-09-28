@@ -1,0 +1,15 @@
+/* pages/zsearch/zsearch.wxss */
+
+.boss{
+    padding: 20rpx;
+}
+.one{
+    line-height: 80rpx;
+    background: brown;
+    text-align: center;
+    border-radius: 5rpx;
+    margin: 30rpx;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30rpx;
+}

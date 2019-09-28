@@ -8,7 +8,12 @@
     "pages/mine/mine",
     "pages/dignDetail/dignDetail",
     "pages/dream/dream",
+<<<<<<< HEAD
     "pages/more/more"
+=======
+    "pages/zdetail/zdetail",
+    "pages/zsearch/zsearch"
+>>>>>>> 43bf10abab835143259f0fa720461ea215c55186
   ],
   "window": {
     "backgroundTextStyle": "light",

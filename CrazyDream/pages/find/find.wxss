@@ -12,7 +12,7 @@
     margin-bottom: 20rpx;
 }
 .image1{
-    margin-top: -40rpx;
+    margin-top: 16rpx;
 }
 .box{
     width: 20%;
@@ -52,4 +52,9 @@
 }
 .logo1{
    animation:haha2  8s linear infinite;
+}
+.fenye{
+    display:flex;justify-content:space-around;
+    line-height: 80rpx;
+    background: red;
 }

@@ -1,4 +1,8 @@
 /* pages/dignDetail/dignDetail.wxss */
+.navBtn{
+  display: flex;
+
+}
 .header{
   width: 100%;
   height: 100rpx;
@@ -9,4 +13,18 @@
 }
 .time{
   font-size: 22rpx;
+}
+
+.content{
+  background-color: gray;
+}
+
+.content>view{
+  width: 50%;
+  float: left;
+  background: red;
+}
+
+.describe{
+  text-align: left;
 }
