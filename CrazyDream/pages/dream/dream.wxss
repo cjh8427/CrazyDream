@@ -7,12 +7,14 @@
 .container{
     width: 100vw;
     height: 100vh;
+    padding: 0 20rpx;
     color: orangered;
     background: url("http://img2.imgtn.bdimg.com/it/u=2578223756,2310142984&fm=26&gp=0.jpg") no-repeat center center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    overflow-y: scroll;
 }
 .text{
     width: 100%;
@@ -20,6 +22,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30rpx;
+    /* border: 1px solid #fff;
+    border-radius: 20rpx; */
+    
 } 
 .title{
     font-weight: 600;

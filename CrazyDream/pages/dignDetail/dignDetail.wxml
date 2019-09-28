@@ -1,7 +1,62 @@
 <!--pages/dignDetail/dignDetail.wxml-->
-<view class="header">
-<text>{{xzname}}</text>
-<view>
-<text class="time">有效期: {{time}}</text>
+<view class="navBtn">
+  <button bindtap="today">today</button>
+  <button bindtap="week" data-value="week">week</button>
+  <button bindtap="month" data-value="month">month</button>
+  <button bindtap="year" data-value="year">year</button>
 </view>
+<view class="header">
+  <text>{{xzname}}</text>
+  <view>
+    <text class="time">有效期: {{time}}</text>
+  </view>
+
+  <view wx:if="{{istoday}}">
+    <view class="content">
+      <view>
+        <text>综合指数: {{all}}</text>
+      </view>
+      <view>
+        <text>爱情指数: {{love}}</text>
+      </view>
+      <view>
+        <text>健康指数: {{health}}</text>
+      </view>
+      <view>
+        <text>财运指数: {{money}}</text>
+      </view>
+      <view>
+        <text>工作指数: {{work}}</text>
+      </view>
+      <view>
+        <text>速配星座: {{QFriend}}</text>
+      </view>
+      <view>
+        <text>幸运数字: {{number}}</text>
+      </view>
+      <view>
+        <text>幸运颜色: {{color}}</text>
+      </view>
+    </view>
+    <view class="describe">
+      <text>今天概述: </text>
+      <view>{{summary}}</view>
+    </view>
+  </view>
+  <view wx:else>
+    <view><text>if的对立面</text></view>
+    <view style="text-align:left">
+      <view>财运运势:</view>
+      <text>{{moneyluck}}</text>
+    </view>
+    <view style="text-align:left">
+      <view>工作运势:</view>
+      <text>{{workluck}}</text>
+    </view>
+    <view style="text-align:left">
+      <view>爱情运势:</view>
+      <text>{{loveluck}}</text>
+    </view>
+  </view>
+
 </view>
