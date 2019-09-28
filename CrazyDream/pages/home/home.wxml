@@ -2,14 +2,14 @@
 <!-- <text>pages/home/home.wxml</text> -->
 <view class="container">
     <view class="search-inp">
-        <input class="keyword-inp" type="text" placeholder="请输入关键字" placeholder-style="color:aliceblue" bindinput="getKeyWord" />
-        <image class="search-btn" src="../../images/find.png" bindtap="gotoDream" keyword="{{keyword}}"/>
+        <input class="keyword-inp" type="text" placeholder="告诉周公你梦到什么"  bindinput="getKeyWord" />
+        <image class="search-btn" src="../../images/find.png" bindtap="gotoDream"/>
     </view>
 
     <view class="share-btn" >
 
-        <button  type="primary" size="mini" >分享</button>
+        <button open-type='share'  type="primary" size="mini" >分享</button>
        
-        <button type="warn" size="mini" >更多</button>
+        <button type="warn" size="mini" bindtap="gotoMore">更多</button>
     </view>
 </view>

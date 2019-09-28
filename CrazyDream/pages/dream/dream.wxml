@@ -19,6 +19,6 @@
     </view>
 
     <view class="">
-        <button style="background-color:deepskyblue;color:#fff">结果帮到你？分享给朋友吧</button>
+        <button open-type="share" style="background-color:deepskyblue;color:#fff">结果帮到你？分享给朋友吧</button>
     </view>
 </view>

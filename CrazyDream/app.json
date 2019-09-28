@@ -7,7 +7,8 @@
     "pages/cart/cart",
     "pages/mine/mine",
     "pages/dignDetail/dignDetail",
-    "pages/dream/dream"
+    "pages/dream/dream",
+    "pages/more/more"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -25,8 +26,8 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/home-on.png"
+        "iconPath": "images/timg1.jpg",
+        "selectedIconPath": "images/timg.jpg"
       },
       {
         "pagePath": "pages/find/find",

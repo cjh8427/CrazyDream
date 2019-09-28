@@ -8,20 +8,24 @@ Page({
   data: {
     keyword:""
   },
-  // gotoShare(){
-
-  // },
-  gotoDream(){
+  gotoMore(){
+    wx.navigateTo({
+      url:'/pages/more/more'
+    })
+  },
+  gotoDream(res){
     wx.navigateTo({
       url: '/pages/dream/dream?keyword='+this.data.keyword,
     });
+    this.setData({
+      keyword: "" 
+    })
   },
   getKeyWord(e){
     // console.log(e);
     this.setData({
       keyword: e.detail.value 
     })
-   
   },
   /**
    * 生命周期函数--监听页面加载
@@ -48,7 +52,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+   
   },
 
   /**
@@ -75,7 +79,15 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function () {
-
+  onShareAppMessage: function (res) {
+    if (res.from === 'button') {
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return {
+      title: '周公解梦',
+      path: '/pages/home/home',
+      imageUrl:'../../images/timg.jpg'
+    }
   }
 })

@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText":"周公解梦",
+  "navigationBarBackgroundColor": "#0ff",
   "usingComponents": {}
 }

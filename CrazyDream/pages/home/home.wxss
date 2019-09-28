@@ -6,7 +6,7 @@
 }
 .search-inp{
     width: 80%;
-    color: aliceblue;
+    /* color: orangered; */
     display: flex;
     justify-content: space-between;
     align-items: center;

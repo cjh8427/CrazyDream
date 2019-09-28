@@ -1,0 +1,20 @@
+/* pages/more/more.wxss */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: url("http://img2.imgtn.bdimg.com/it/u=2578223756,2310142984&fm=26&gp=0.jpg") no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.control{
+    margin-top: 50rpx;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

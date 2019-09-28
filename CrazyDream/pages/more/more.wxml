@@ -1,0 +1,10 @@
+<!--pages/more/more.wxml-->
+<!-- <text>pages/more/more.wxml</text> -->
+
+<view class="container">
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+    <view class="control">
+        <button type="primary" bindtap="audioPlay" size="mini">播放</button>
+        <button type="warn" bindtap="audioPause" size="mini">暂停</button>
+    </view>
+</view>
