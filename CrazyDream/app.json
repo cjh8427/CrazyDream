@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/find/find",
     "pages/home/home",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/find/find",
     "pages/cart/cart",
     "pages/mine/mine",
+    "pages/dignDetail/dignDetail",
     "pages/dream/dream"
   ],
   "window": {
@@ -17,7 +18,7 @@
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#2c2c2c",
-    "selectedColor": "#1afa29",
+    "selectedColor": "#b87850",
     "backgroundColor": "#fff",
     "borderStyle": "black",
     "list": [
@@ -35,9 +36,9 @@
       },
       {
         "pagePath": "pages/cart/cart",
-        "text": "购物车",
-        "iconPath": "images/cart.png",
-        "selectedIconPath": "images/cart-on.png"
+        "text": "星座运势",
+        "iconPath": "images/sign.png",
+        "selectedIconPath": "images/sign-on.png"
       },
       {
         "pagePath": "pages/mine/mine",

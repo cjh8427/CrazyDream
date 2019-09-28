@@ -11,9 +11,9 @@ exports.http = function({url,method,data,success}){
       },
       success:res=>{
         wx.hideLoading();
-        wx.showToast({
-          title:res.data.reason
-        });
+        // wx.showToast({
+        //   title:res.data.reason
+        // });
         success(res);
       }
     })
