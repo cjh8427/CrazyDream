@@ -8,7 +8,9 @@ Page({
   data: {
     keyword:""
   },
+  // gotoShare(){
 
+  // },
   gotoDream(){
     wx.navigateTo({
       url: '/pages/dream/dream?keyword='+this.data.keyword,

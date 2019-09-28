@@ -11,11 +11,14 @@
         </view>
     </view>
 
-    <view class="no-text"  wx:if="{{!textList.length}}">
+    <view class="no-text" wx:if="{{!textList.length}}" >
         <image class="" src="../../images/unhappy.png" style="width:64px;height:64px"></image>
-        <text class="text-content">
+        <view class="text-content">
             不好意思，暂未收录您搜索的关键词，感谢您的支持，我们会努力完善的哟
-        </text>    
-        
+        </view>    
+    </view>
+
+    <view class="">
+        <button style="background-color:deepskyblue;color:#fff">结果帮到你？分享给朋友吧</button>
     </view>
 </view>
